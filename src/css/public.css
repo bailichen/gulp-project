@@ -1,31 +1,31 @@
-html,
 body,
-ul,
-li,
 dd,
-p,
+dl,
+fieldset,
+form,
 h1,
 h2,
 h3,
 h4,
 h5,
-th,
-td,
-dl,
 h6,
-form,
-fieldset,
-legend,
+html,
 img,
 input,
-textarea,
+legend,
+li,
+p,
+section,
 select,
-section {
+td,
+textarea,
+th,
+ul {
   padding: 0;
   margin: 0;
   text-decoration: none;
   list-style: none;
-  outline: none;
+  outline: 0;
   font-family: "微软雅黑";
 }
 a,
@@ -53,4 +53,10 @@ body {
   display: block;
   height: 0;
   line-height: 0;
+}
+.page-wrap {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
 }

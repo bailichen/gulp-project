@@ -52,7 +52,7 @@ gulp.task("release",function(){
 
 gulp.task("html",function(){
 	gulp.src("src/html/**/*.html",option)
-		/*.pipe(minifyHtml())*/
+		.pipe(minifyHtml())
 		.pipe(gulp.dest(app))
 		.pipe(browserSync.reload({stream:true}))	
 })
@@ -73,14 +73,14 @@ gulp.task("json",function(){
 gulp.task("less",function(){
 	csscontent++;
 	console.log("css提交了"+csscontent+"次")
-	gulp.src("src/css/**/*.css",option)
-		.pipe(gulp.dest(app))
-		.pipe(browserSync.reload({stream:true}))
+	// gulp.src("src/css/**/*.css",option)
+	// 	.pipe(gulp.dest(app))
+	// 	.pipe(browserSync.reload({stream:true}))
 
 	gulp.src("src/css/**/*.less",option)
 		.pipe(less())
 		.pipe(autoprefixer())
-		/*.pipe(minify())*/
+		.pipe(minify())
 		.pipe(gulp.dest(app))
 		.pipe(browserSync.reload({stream:true}))		
 })
@@ -89,10 +89,9 @@ gulp.task("js",function(){
 	jscontent++;
 	console.log("js提交了"+jscontent+"次")
 	gulp.src("src/js/**/*.js",option)
-		/*.pipe(uglify())*/
+		.pipe(uglify())
 		.pipe(gulp.dest(app))
 		.pipe(browserSync.reload({stream:true}))
-
 })
 
 gulp.task("watchAll",function(){
