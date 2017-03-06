@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>注册</title>
+	<script type="text/javascript" src="../js/zepto.min.js"></script>
+	<script type="text/javascript" src="../js/rem.js"></script>
+	<link rel="stylesheet" href="../css/register.css" />
+</head>
+<body>
+	<section>
+		<form action="">
+			<h2>注册新用户</h2>
+			<input type="text" placeholder="输入11位手机号" value='' maxlength="11" id="phone">
+			<p class="redwarn">请输入正确的手机号码格式</p>
+			<input type="text" placeholder="输入20字以内的昵称" value="" maxlength="20">
+			<input type="text" placeholder="输入20字6-12位密码" value="" maxlength="12" id="select">
+			<p class="redwarn2">输入20字6-12位密码</p>
+			<div class="text clear">
+				<span class="left"><input type="text" placeholder="输入6位验证码"></span>
+				<strong class="right">获取验证码</strong>
+			</div>
+			<div>
+				<button>注&emsp;册</button>
+			</div>
+		</form>
+	</section>
+</body>
+</html>
+<script type="text/javascript">
+	(function(){
+		var verify={
+			phone:$("#phone"),
+			select:$("#select"),
+			init:function(){
+				this.bindEvent()
+			},
+			checkPart:function(){
+				var tel=this.phone.val();
+				var selectval=this.select.val();
+				if(tel === '' || !/1\d{10}/gi.test(tel)){
+					$(".redwarn").css("display","block")
+				}else{ 
+					$(".redwarn").css("display","none")
+				}
+				if(selectval === '' || !/^\w{6,12}$/.test(selectval)){
+					$(".redwarn2").css("display","block")
+				}else{ 
+					$(".redwarn2").css("display","none")
+				}
+
+			},
+			bindEvent:function(){ 
+				var me=this;
+				$("input").on("input",function(){
+					me.checkPart()
+				})
+			}
+		}
+		verify.init()
+	})()
+</script>

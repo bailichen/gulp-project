@@ -1,4 +1,5 @@
-# officialwebsite
-rem.js+gulp+webpack+json+less
-$ node_modules/gulp/bin/gulp.js 
+###安装依赖
+#####npm install
+```
 $ node node_modules/gulp/bin/gulp.js defaultwo
+```
