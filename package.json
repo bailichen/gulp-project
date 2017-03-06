@@ -1,8 +1,8 @@
 {
-  "name": "elm",
+  "name": "offical",
   "version": "1.0.0",
   "description": "vue2-elm",
-  "author": "maguohua <1264889788@qq.com>",
+  "author": "xulianjie <812571880@qq.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

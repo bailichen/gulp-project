@@ -1,0 +1,79 @@
+.head{
+	padding: 31px 30px 0 26px;
+	display: flex;
+	justify-content: space-between;
+	color:#fff;
+	font-size: 26px;
+	.head_left{
+		display: flex;
+		justify-content: flex-start;
+		.head_logo{
+			width:138px;
+			height:212px;
+			background: url(../img/rimone.png) no-rapeat;
+			background-size:100% 100%;
+			img{
+				display: inline-block;
+				width: 100px;
+				height: 100px;
+				margin-top: 18px;
+				margin-left: 22px;
+			}
+		}
+		.brightword{
+			width: 390px;
+			height: 72px;
+			background: url(../img/rimtwo.png) no-rapeat;
+			background-size:100% 100%;
+			position: relative;
+			margin-top: 18px;
+			margin-left: 8px;
+			.brightword_con{
+				position: absolute;
+				width: 100%;
+				top: 18px;
+				left:16px;
+				p{
+					font-size: 20px;
+					color:#d99545;
+					letter-spacing: 8px;
+				}
+				.brightone{
+					color:#d99545;
+					-webkit-animation: neon5 1s ease-in-out infinite alternate;
+					-moz-animation: neon5 1s ease-in-out infinite alternate;
+					animation: neon5 1s ease-in-out infinite alternate; 
+				}
+
+				.brightwo{
+					font-size: 9px;
+					letter-spacing: 0.5px;
+					color:#a0d7e0;
+				}
+			} 
+		}
+	}
+	
+}
+@-webkit-keyframes neon5 {
+  	from {
+    	text-shadow: 0 0 10px #fff,
+		           	0 0 20px  #fff,
+		           	0 0 30px  #fff,
+		            0 0 40px  #FF9900,
+		            0 0 70px  #FF9900,
+		            0 0 80px  #FF9900,
+		            0 0 100px #FF9900,
+		            0 0 150px #FF9900;
+  	}
+  	to {
+    	text-shadow: 0 0 5px #fff,
+		            0 0 10px #fff,
+		            0 0 15px #fff,
+		            0 0 20px #FF9900,
+		            0 0 35px #FF9900,
+		            0 0 40px #FF9900,
+		            0 0 50px #FF9900,
+		            0 0 75px #FF9900;
+  	}
+}
