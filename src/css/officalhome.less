@@ -26,11 +26,10 @@
 			background: url(../img/rimtwo.png) no-rapeat;
 			background-size:100% 100%;
 			position: relative;
-			margin-top: 18px;
+			margin-top: 24px;
 			margin-left: 8px;
 			.brightword_con{
 				position: absolute;
-				width: 100%;
 				top: 18px;
 				left:16px;
 				p{
@@ -53,7 +52,60 @@
 			} 
 		}
 	}
-	
+	.head_center{
+		width: 48px;
+		height: 100px;
+	}
+	.head_right{
+		width: 1278px;
+		height: 181px;
+		background: url(../img/rimthree.png) no-rapeat;
+		background-size: 100% 100%;
+		position: relative;
+		.head_num{
+			width:77%;
+			line-height: 30px;
+			margin-top:14px; 
+			margin-right: 32px;
+			border: 1px solid #355c68;
+			font-size: 18px;
+			text-align: center;
+			color: #c3e9ed;
+			position: relative;
+			.rimfourgif{
+				position: absolute;
+				width: 440px;
+				height: 23px;
+				top:3px;
+				left:50%;
+				transform: translate(-50%);
+			}
+		}
+		.point{
+			position: absolute;
+			top:3px;
+			left:19.4%;
+			width: 6px;
+			height: 6px;
+			border-radius: 50%;
+			background: #f8a94c;
+			-webkit-animation: opacityhidenthree 4s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate;
+			-moz-animation: opacityhidenthree 4s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate;
+			animation: opacityhidenthree 4s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate; 
+		}
+		.pointwo{
+			left:20%;
+			-webkit-animation: opacityhidenthree 3s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate;
+			-moz-animation: opacityhidenthree 3s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate;
+			animation: opacityhidenthree 3s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate; 
+		}
+		.pointhree{
+			left:20.6%;
+			-webkit-animation: opacityhidenthree 2s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate;
+			-moz-animation: opacityhidenthree 2s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate;
+			animation: opacityhidenthree 2s cubic-bezier(0.47, 0, 0.75, 0.72) infinite alternate; 
+		}
+	}
 }
 @-webkit-keyframes neon5 {
   	from {
@@ -76,4 +128,16 @@
 		            0 0 50px #FF9900,
 		            0 0 75px #FF9900;
   	}
+}
+@-webkit-keyframes opacityhidenone {
+  from {left:20.6%}
+  to   {left:62.8%}
+}
+@-webkit-keyframes opacityhidentwo {
+  from {left:20%}
+  to   {left:62.8%}
+}
+@-webkit-keyframes opacityhidenthree {
+  from {left:19.4%}
+  to   {left:62.8%}
 }
