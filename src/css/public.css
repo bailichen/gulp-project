@@ -56,9 +56,3 @@ body {
   height: 0;
   line-height: 0;
 }
-.page-wrap {
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -webkit-flex;
-  display: flex;
-}

@@ -1,12 +1,13 @@
+@import 'publicless.less';
 .head{
 	padding: 31px 30px 0 26px;
-	display: flex;
-	justify-content: space-between;
+	.page-wrap;
+	.justifycontent(space-between);
 	color:#fff;
 	font-size: 26px;
 	.head_left{
-		display: flex;
-		justify-content: flex-start;
+		.page-wrap;
+		.justifycontent(flex-start);
 		.head_logo{
 			width:138px;
 			height:212px;
@@ -141,4 +142,92 @@
 @-webkit-keyframes opacityhidenthree {
   from {left:19.4%}
   to   {left:62.8%}
+}
+.corps{
+	height: 886px;
+	padding-left: 18px;
+	padding-right:22px; 
+	.page-wrap;
+	.justifycontent(space-between);
+	color:#fff;
+	.corps_left{
+		width: 60px;
+		height: 872px;
+		background: url(../img/rimleft.png) no-rapeat;
+		margin-top: -74px;
+	}
+	.corps_center{
+		width: 79%;
+		height:866px; 
+		margin-top: -24px;
+		.corps_center_top{
+			width: 100%;
+			.page-wrap;
+			.justifycontent(flex-start);
+			.corps_center_top_cone{
+				width: 30%;
+				.page-wrap;
+				.justifycontent(flex-start);
+				.corps_center_top_left{
+					width:165px;
+					height:317px;
+					position: relative;
+					.icon{
+						position: absolute;
+						left:47px;
+						top:14px;
+						img{
+							width: 52px;
+							height: 52px;
+							display: inline-block;
+							border: 1px solid #a0d7e0;
+							.borderRadis;
+						}
+					}
+				}
+				.corps_center_top_right{
+					width: 236px;
+					height: 300px;
+					margin-top: 16px;
+					margin-left: 24px;
+					position: relative;
+					img{
+						width: 100%;
+						height: 100%;
+						display: block;
+
+					}
+					.position{
+						position: absolute;
+						top:-40px;
+						width:272px;
+						font-size:10px;
+						color: #427082;
+						width:335px; 
+						font-family: Airal;
+						border-bottom: 1px dashed #3f4c50;
+						padding-bottom: 14px;
+						padding-left:44px;
+						left:-44px;
+					}
+				}
+				
+			}
+			.corps_center_top_ctwo{
+				margin-left: 30px;
+				margin-top: 5px;
+			}
+		}
+		.corps_center_body{
+			width: 100%;
+			height: 108px;
+			position: relative; 
+		}
+	}
+	.corps_right{
+		width: 60px;
+		height: 872px;
+		background: url(../img/rimright.png) no-rapeat;
+		margin-top:-74px;
+	}
 }
