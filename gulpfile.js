@@ -52,7 +52,7 @@ gulp.task("release",function(){
 
 gulp.task("html",function(){
 	gulp.src("src/html/**/*.html",option)
-		.pipe(minifyHtml())
+		//.pipe(minifyHtml())
 		.pipe(gulp.dest(app))
 		.pipe(browserSync.reload({stream:true}))	
 })
