@@ -5,7 +5,7 @@
   "author": "xulianjie <812571880@qq.com>",
   "private": true,
   "scripts": {
-    "dev": "node build/dev-server.js",
+    "dev": "node node_modules/gulp/bin/gulp.js defaultwo",
     "build": "node build/build.js"
   },
   "dependencies": {
