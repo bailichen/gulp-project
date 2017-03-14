@@ -2,15 +2,15 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="55px" height="45.689px" viewBox="0 0 55 45.689" enable-background="new 0 0 55 45.689" xml:space="preserve">
+	 width="55.5px" height="45.69px" viewBox="0 0 55.5 45.69" enable-background="new 0 0 55.5 45.69" xml:space="preserve">
 <g>
-	<line fill="none" stroke="#497A8D" stroke-miterlimit="10" x1="-0.001" y1="-0.001" x2="-0.001" y2="45.691"/>
+	<line fill="none" stroke="#497A8D" stroke-miterlimit="10" x1="0.499" y1="-0.001" x2="0.499" y2="45.691"/>
 	<g>
-		<path fill="#497A8D" d="M54,0.999v43.691H10.307V0.999H54 M55-0.001H9.307v45.691H55V-0.001L55-0.001z"/>
+		<path fill="#497A8D" d="M54.5,0.999v43.693H10.807V0.999H54.5 M55.5-0.001H9.807v45.693H55.5V-0.001L55.5-0.001z"/>
 	</g>
 	<g>
-		<line fill="none" stroke="#8ABCC7" stroke-miterlimit="10" x1="19.81" y1="10.999" x2="44.705" y2="35.893"/>
-		<line fill="none" stroke="#8ABCC7" stroke-miterlimit="10" x1="44.705" y1="10.999" x2="19.81" y2="35.893"/>
+		<line fill="none" stroke="#8ABCC7" stroke-miterlimit="10" x1="20.31" y1="10.998" x2="45.205" y2="35.893"/>
+		<line fill="none" stroke="#8ABCC7" stroke-miterlimit="10" x1="45.205" y1="10.998" x2="20.31" y2="35.893"/>
 	</g>
 </g>
 </svg>
