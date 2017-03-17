@@ -113,3 +113,24 @@
   width: 272px;
   margin: 56px auto 0;
 }
+.corps_center .case .case_right {
+  width: 1370px;
+}
+.corps_center .case .case_right .case_right_top {
+  width: 100%;
+  display: -ms- flex;
+  display: -webkit- flex;
+  display: -o- flex;
+  display: -moz- flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+}
+.corps_center .case .case_right .case_right_top .case_bodyimg {
+  position: relative;
+  width: 992px;
+  height: 550px;
+}
