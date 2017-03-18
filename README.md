@@ -28,7 +28,7 @@ plugins 是插件项，这里我们使用了一个 CommonsChunkPlugin的插件�
     --- 最后是 resolve 配置，配置查找模块的路径和扩展名和别名（方便书写），
 ###### SVG（开发移动端比较合适 ，pc端不建议使用svg）
     --- SVG可缩放矢量图形（Scalable Vector Graphics，SVG）是基于可扩展标记语言（XML），用于描述二维矢量图形的一种图形格式。
-    --- 可以解决png,jpg,jpeg等格式的图片在不同分辨率的屏幕下的出现模糊的bug(SVG兼容到ie9及以上版本（亲测）)。
+    --- 可以解决png,jpg,jpeg等格式的图片在不同分辨率的屏幕下的出现模糊的bug(SVG兼容到ie9及以上版本（亲测）)
 ```
 
 ```
