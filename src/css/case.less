@@ -1,6 +1,8 @@
 @import 'publicless.less';
-.corps_center{
-	width: 89% !important;
+.case_center{
+	width: 1124px;
+	margin:0 auto;
+	overflow: hidden;
 	.case{
 		.page-wrap;
 		.justifycontent;
@@ -93,19 +95,78 @@
 			}
 			.case_left_bottom{
 				width: 272px;
+				height: 217px;
 				margin: 56px auto 0;
+				img{
+					width: 100%;
+					height: 100&;
+				}
 			}
 		}
 		.case_right{
-			width: 1370px;
+			width: 790px;
+			overflow: hidden;
 			.case_right_top{
 				width: 100%;
 				.page-wrap;
 				.justifycontent;
 				.case_bodyimg{
 					position: relative;
-					width: 992px;
-					height: 550px;
+					width: 570px;
+					height: 314px;
+					img{
+						width: 100%;
+						height: 100%;
+					}
+				}
+				.case_bodylist{
+					width: 200px;
+					.bodylist_top{
+						width: 180px;
+						height: 30px;
+						background: url(../img/case_top.png) no-repeat;
+						background-size: 100% 100%;
+						color:#d0f8fc;
+						font-size: 16px;
+						padding-top: 7px;
+						padding-left:20px;
+					}
+					.bodylist_bot{
+						position: relative;
+						width: 200px;
+						height:277px;
+						.case_bot{
+							display: inline-block;
+							width:30px;
+							height:277px;
+						}
+						.case_list{
+							position: absolute;
+							width: 180px;
+							height:267px;
+							overflow: hidden;
+							top:0;
+							right:10px;
+							ul{
+								width: 180px;
+								height:267px;
+								li{
+									width: 180px;
+									font-weight: 500;
+									font-size: 8px;
+									color: #81a9ac;
+									.case_list_left{
+										width: 160px;
+									}
+									.case_list_right{
+										width: 20px;
+										font-size: 12px;
+										color: #f8a94c;
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}
