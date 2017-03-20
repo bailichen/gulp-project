@@ -24,5 +24,5 @@
   doc.addEventListener('DOMContentLoaded', recalc, false);
   //当dom加载完成时，或者 屏幕垂直、水平方向有改变进行html的根元素计算
 })(document, window);
-
+console.log(111)
 //如果你不想进行一个响应式设计的开发，你可以直接把font-size写死

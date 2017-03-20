@@ -6,8 +6,10 @@
 	<link rel="stylesheet" href="../css/public.css" />
 	<link rel="stylesheet" href="../css/officalhome.css" />
 	<link rel="stylesheet" href="../css/case.css" />
-	<srcipt type="text/javascript" src="../js/jquery-1.8.3.js"></srcipt>
-	<srcipt type="text/javascript" src="../js/iscroll.js"></srcipt>
+	<script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="../js/iscroll.js"></script>
+	<script type="text/javascript" src="../js/rem.js"></script>
+
 </head>
 <body>
 	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0;visibility:hidden">
@@ -258,7 +260,21 @@
 							</div>
 						</div>
 					</div>
-					<div class="case_right_bottom"></div>
+					<div class="case_right_bottom clear">
+						<div class="case_right_vr left">
+							<p><span></span></p>
+							<p>08</p>
+						</div>
+						<div class="case_right_text left">
+							<img src="../img/borders.png" alt="" /><span>VR TEACHING SYSTEM OF PROFEDDIONAL COURSEWARE</span>
+						</div>
+						<div class="case_right_rate right">
+							<div class="rate_right">
+								<img src="../img/rate.png" alt="" />
+								<div class="rate_right_num">45</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -267,9 +283,11 @@
 </body>
 </html>
 <script>
+
 	var myScroll = new IScroll('.case_list',{
 		scrollbars:true,
 		probeType:2,//滚动条的灵敏性设置
-		bounce:true
+		bounce:true,
+		vScroll:true,
 	});
 </script>

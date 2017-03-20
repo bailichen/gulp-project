@@ -89,7 +89,7 @@ gulp.task("js",function(){
 	jscontent++;
 	console.log("js提交了"+jscontent+"次")
 	gulp.src("src/js/**/*.js",option)
-		.pipe(uglify())
+		//.pipe(uglify())
 		.pipe(gulp.dest(app))
 		.pipe(browserSync.reload({stream:true}))
 })
@@ -109,7 +109,7 @@ gulp.task("watchAll",function(){
 gulp.task('browser',['default'],function(){
   browserSync({
     // host: 172.16.157.1,
-    port: 8881,
+    port: 8888,
     open: true,
     // 路径显示/d 开始
     startPath: "/app/html",
