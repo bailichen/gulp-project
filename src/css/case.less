@@ -209,11 +209,9 @@
 				.case_right_rate{
 					.rate_right{
 						position: relative;
-						img{
-							display: block;
-							width: 49px;
-							height: 85px;
-						}
+						background: url(../img/rate.png) no-repeat right top;
+						width: 85px;
+						height: 85px;
 						.rate_right_num{
 							position: absolute;
 							color: #d0f8fc;
@@ -224,6 +222,50 @@
 							transform:translate(-50%,-50%);
 						}
 					}
+					.rate_left{
+						width:280px;
+						border-left: 1px solid #497d91;
+						padding-left:20px;
+						font-size: 6px;
+						color:#9bccce;
+						margin-left:20px;
+						line-height: 22px;
+					}
+				}
+			}
+		}
+	}
+}
+.footer{
+	width: 84%;
+	margin: -160px auto 0;
+	position: relative;
+	z-index: 100;
+	color: #fff;
+	.page-wrap;
+	.justifycontent;
+	.footer_left{
+		width: 31%;
+		margin-top: 60px;
+		img{
+			display: inline-block;
+			width: 100%;
+			height: auto;
+		}
+	}
+	.footer_center{
+		width: 38%;
+		margin: 0 auto;
+		ul{
+			width: 100%;
+			.page-wrap;
+			.justifycontent;
+			padding-left: 10px;
+			li{
+				width: 25%;
+				img{
+					width: 80%;
+					height: auto;
 				}
 			}
 		}
