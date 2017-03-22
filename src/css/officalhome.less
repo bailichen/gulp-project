@@ -159,13 +159,11 @@
 
 	}
 	.corps_center{
-		width: 79%;
+		width: 960px;
 		height:866px; 
 		margin-top: -24px;
-		position: absolute;
-		left:50%;
-
-		.transformpart;
+		margin:0 auto;
+		overflow: hidden;
 		.corps_center_top{
 			width: 100%;
 			.page-wrap;
@@ -174,55 +172,119 @@
 				width: 30%;
 				.page-wrap;
 				.justifycontent(flex-start);
+				cursor: pointer;
 				.corps_center_top_left{
-					width:50%;
-					height:317px;
+					width:108px;
+					height:204px;
 					position: relative;
 					.icon{
 						position: absolute;
-						left:47px;
-						top:14px;
-						width: 52px;
-						height: 52px;
+						left:30px;
+						top:12px;
+						width: 32px;
+						height: 32px;
 					}
 				}
 				.corps_center_top_right{
-					width: 236px;
-					height: 300px;
+					width:148px;
+					height: 180px;
 					margin-top: 16px;
-					margin-left: 24px;
+					margin-left: 12px;
 					position: relative;
 					img{
-						width: 236px;
-						height: 300px;
+						width:148px;
+						height: 188px;
 						display: block;
 
 					}
 					.position{
 						position: absolute;
 						top:-40px;
-						width:272px;
 						font-size:10px;
 						color: #427082;
-						width:335px; 
+						width:209px; 
 						font-family: Airal;
 						border-bottom: 1px dashed #3f4c50;
 						padding-bottom: 14px;
 						padding-left:44px;
 						left:-44px;
 					}
+					.instro{
+						position: absolute;
+						right: 0;
+						top:213px;
+						width: 204px;
+						height: 65px;
+						background: url(../img/lone.png) no-rapeat;
+						background-size:100% 100%; 
+						
+						span{
+							display: inline-block;
+							width: 148px;
+							position: absolute;
+							right:0;
+							text-align: center;
+							color: #c4eaee;
+							font-size: 10px;
+							top:8px;
+						}
+					}
+					.instrotwo{
+						width: 380px;
+						background: url(../img/ltwo.png) no-rapeat;
+						background-size:100% 100%;
+					}
+					.instrothree{
+						width: 350px;
+						background: url(../img/lthee.png) no-rapeat;
+						background-size:100% 100%;
+					}
 				}
 				
 			}
 			.corps_center_top_ctwo{
-				margin-left: 30px;
+				margin-left: 6px;
 				margin-top: 5px;
+				p{
+					color:#3a6272;
+					font-size:8px ;
+					margin-top: 4px;
+				}
 			}
 		}
 		.corps_center_body{
 			width: 100%;
-			height: 108px;
+			height: 10px;
 			position: relative; 
+			margin-top:84px;
+			img{
+				display: block;
+				width: 100%;
+				height: 10px;
+			}
+		}
+		.person_instro{
+			width: 666px;
+			height: 130px;
+			margin: 34px auto 0;
+			position: relative;
+			img{
+				display: inline-block;
+				width: 666px;
+				height: 130px;
+			}
+			.instro_text{
+				display: none;
+				width: 600px;
+				margin: 0 auto;
+				font-size: 16px;
+				color: #3a6272;
+				text-align: left;
+				p{
+					font-family: "微软雅黑";
+					line-height: 24px;
+				}
+			}
 		}
 	}
 	.corps_right{
@@ -230,5 +292,40 @@
 		height: 872px;
 		background: url(../img/rimright.png) no-rapeat;
 		margin-top:-74px;
+	}
+}
+.footer{
+	width: 84%;
+	margin: -160px auto 0;
+	position: relative;
+	z-index: 100;
+	color: #fff;
+	.page-wrap;
+	.justifycontent;
+	.footer_left{
+		width: 31%;
+		margin-top: 60px;
+		img{
+			display: inline-block;
+			width: 100%;
+			height: auto;
+		}
+	}
+	.footer_center{
+		width: 38%;
+		margin: 0 auto;
+		ul{
+			width: 100%;
+			.page-wrap;
+			.justifycontent;
+			padding-left: 10px;
+			li{
+				width: 25%;
+				img{
+					width: 80%;
+					height: auto;
+				}
+			}
+		}
 	}
 }
