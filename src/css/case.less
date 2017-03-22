@@ -154,7 +154,7 @@
 									width: 180px;
 									font-weight: 500;
 									font-size: 8px;
-									margin-bottom: 26px;
+									margin-bottom: 14px;
 									color: #81a9ac;
 									.case_list_left{
 										width: 160px;
@@ -172,6 +172,9 @@
 			}
 			.case_right_bottom{
 				margin-top: 50px;
+				width: 100%;
+				.page-wrap;
+				.justifycontent(flex-start);
 				.case_right_vr{
 					width: 74px;
 				}
@@ -191,15 +194,17 @@
 				.case_right_text{
 					width: 282px;
 					margin-left: 24px;
+					.page-wrap;
+					.justifycontent(flex-start);
 					img{
-						display: inline-block;
+						display: block;
 						width: 9px;
 						height: 78px;
 						vertical-align: top;
 						margin-right: 10px;
 					}
 					span{
-						display: inline-block;
+						display: block;
 						width: 258px;
 						font-size: 16px;
 						padding-top:20px;
@@ -207,6 +212,9 @@
 					}
 				}
 				.case_right_rate{
+					margin-left: 20px;
+					.page-wrap;
+					.justifycontent(flex-start);
 					.rate_right{
 						position: relative;
 						background: url(../img/rate.png) no-repeat right top;
@@ -238,7 +246,7 @@
 }
 .footer{
 	width: 84%;
-	margin: -160px auto 0;
+	margin: -326px auto 0;
 	position: relative;
 	z-index: 100;
 	color: #fff;
@@ -263,9 +271,13 @@
 			padding-left: 10px;
 			li{
 				width: 25%;
-				img{
-					width: 80%;
-					height: auto;
+				a{
+					display: inline-block;
+					width: 100%;
+					img{
+						width: 80%;
+						height: auto;
+					}
 				}
 			}
 		}
