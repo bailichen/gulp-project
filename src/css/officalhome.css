@@ -173,6 +173,7 @@
   height: 886px;
   padding-left: 18px;
   padding-right: 22px;
+  position: relative;
   display: -ms- flex;
   display: -webkit- flex;
   display: -o- flex;
@@ -186,15 +187,18 @@
   color: #fff;
 }
 .corps .corps_left {
-  width: 60px;
-  height: 872px;
+  width: 58px;
+  height: 720px;
   background: url(../img/rimleft.png) no-rapeat;
+  background-size: 100% 100%;
   margin-top: -74px;
 }
 .corps .corps_center {
-  width: 79%;
+  width: 960px;
   height: 866px;
   margin-top: -24px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 .corps .corps_center .corps_center_top {
   width: 100%;
@@ -221,65 +225,180 @@
   -ms-justify-content: flex-start;
   -o-justify-content: flex-start;
   justify-content: flex-start;
+  cursor: pointer;
 }
 .corps .corps_center .corps_center_top .corps_center_top_cone .corps_center_top_left {
-  width: 165px;
-  height: 317px;
+  width: 108px;
+  height: 204px;
   position: relative;
 }
 .corps .corps_center .corps_center_top .corps_center_top_cone .corps_center_top_left .icon {
   position: absolute;
-  left: 47px;
-  top: 14px;
+  left: 32px;
+  top: 12px;
+  width: 32px;
+  height: 32px;
 }
 .corps .corps_center .corps_center_top .corps_center_top_cone .corps_center_top_left .icon img {
-  width: 52px;
-  height: 52px;
   display: inline-block;
-  border: 1px solid #a0d7e0;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
+  width: 32px;
+  height: 32px;
 }
 .corps .corps_center .corps_center_top .corps_center_top_cone .corps_center_top_right {
-  width: 236px;
-  height: 300px;
+  width: 148px;
+  height: 180px;
   margin-top: 16px;
-  margin-left: 24px;
+  margin-left: 12px;
   position: relative;
 }
 .corps .corps_center .corps_center_top .corps_center_top_cone .corps_center_top_right img {
-  width: 100%;
-  height: 100%;
+  width: 148px;
+  height: 188px;
   display: block;
 }
 .corps .corps_center .corps_center_top .corps_center_top_cone .corps_center_top_right .position {
   position: absolute;
   top: -40px;
-  width: 272px;
   font-size: 10px;
   color: #427082;
-  width: 335px;
+  width: 209px;
   font-family: Airal;
   border-bottom: 1px dashed #3f4c50;
   padding-bottom: 14px;
   padding-left: 44px;
   left: -44px;
 }
+.corps .corps_center .corps_center_top .corps_center_top_cone .corps_center_top_right .instro {
+  position: absolute;
+  right: 0;
+  top: 213px;
+  width: 204px;
+  height: 65px;
+  background: url(../img/lone.png) no-rapeat;
+  background-size: 100% 100%;
+}
+.corps .corps_center .corps_center_top .corps_center_top_cone .corps_center_top_right .instro span {
+  display: inline-block;
+  width: 148px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  color: #c4eaee;
+  font-size: 10px;
+  top: 8px;
+}
+.corps .corps_center .corps_center_top .corps_center_top_cone .corps_center_top_right .instrotwo {
+  width: 380px;
+  background: url(../img/ltwo.png) no-rapeat;
+  background-size: 100% 100%;
+}
+.corps .corps_center .corps_center_top .corps_center_top_cone .corps_center_top_right .instrothree {
+  width: 350px;
+  background: url(../img/lthee.png) no-rapeat;
+  background-size: 100% 100%;
+}
 .corps .corps_center .corps_center_top .corps_center_top_ctwo {
-  margin-left: 30px;
+  margin-left: 6px;
   margin-top: 5px;
+}
+.corps .corps_center .corps_center_top .corps_center_top_ctwo p {
+  color: #3a6272;
+  font-size: 8px ;
+  margin-top: 4px;
 }
 .corps .corps_center .corps_center_body {
   width: 100%;
-  height: 108px;
+  height: 10px;
+  position: relative;
+  margin-top: 84px;
+}
+.corps .corps_center .corps_center_body img {
+  display: block;
+  width: 100%;
+  height: 10px;
+}
+.corps .corps_center .person_instro {
+  width: 666px;
+  height: 130px;
+  margin: 34px auto 0;
   position: relative;
 }
+.corps .corps_center .person_instro img {
+  display: inline-block;
+  width: 666px;
+  height: 130px;
+}
+.corps .corps_center .person_instro .instro_text {
+  display: none;
+  width: 666px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #3a6272;
+  text-align: left;
+}
+.corps .corps_center .person_instro .instro_text p {
+  font-family: "微软雅黑";
+  line-height: 24px;
+}
 .corps .corps_right {
-  width: 60px;
-  height: 872px;
+  width: 58px;
+  height: 720px;
   background: url(../img/rimright.png) no-rapeat;
+  background-size: 100% 100%;
   margin-top: -74px;
+}
+.footer {
+  width: 84%;
+  margin: -326px auto 0;
+  position: relative;
+  z-index: 100;
+  color: #fff;
+  display: -ms- flex;
+  display: -webkit- flex;
+  display: -o- flex;
+  display: -moz- flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+}
+.footer .footer_left {
+  width: 31%;
+  margin-top: 60px;
+}
+.footer .footer_left img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.footer .footer_center {
+  width: 30%;
+  margin: 0 auto;
+}
+.footer .footer_center ul {
+  width: 100%;
+  display: -ms- flex;
+  display: -webkit- flex;
+  display: -o- flex;
+  display: -moz- flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.footer .footer_center ul li {
+  width: 25%;
+}
+.footer .footer_center ul li a {
+  display: inline-block;
+  width: 100%;
+}
+.footer .footer_center ul li a img {
+  width: 80%;
+  height: auto;
 }
