@@ -107,69 +107,7 @@
 		.case_right{
 			width: 790px;
 			overflow: hidden;
-			.case_right_top{
-				width: 100%;
-				.page-wrap;
-				.justifycontent;
-				.case_bodyimg{
-					position: relative;
-					width: 570px;
-					height: 406px;
-					img{
-						width: 100%;
-						height: 100%;
-					}
-				}
-				.case_bodylist{
-					width: 200px;
-					.bodylist_top{
-						width: 180px;
-						height: 30px;
-						background: url(../img/case_top.png) no-repeat;
-						background-size: 100% 100%;
-						color:#d0f8fc;
-						font-size: 16px;
-						padding-top: 7px;
-						padding-left:20px;
-					}
-					.bodylist_bot{
-						position: relative;
-						width: 200px;
-						height:367px;
-						.case_bot{
-							display: inline-block;
-							width:30px;
-							height:367px;
-						}
-						.case_list{
-							position: absolute;
-							width: 188px;
-							height:370px;
-							overflow: hidden;
-							top:0;
-							right:0px;
-							ul{
-								width: 180px;
-								li{
-									width: 180px;
-									font-weight: 500;
-									font-size: 8px;
-									margin-bottom: 14px;
-									color: #81a9ac;
-									.case_list_left{
-										width: 160px;
-									}
-									.case_list_right{
-										width: 20px;
-										font-size: 12px;
-										color: #f8a94c;
-									}
-								}
-							}
-						}
-					}
-				}
-			}
+			
 			.case_right_bottom{
 				margin-top: 50px;
 				width: 100%;
@@ -283,3 +221,45 @@
 		}
 	}
 }
+
+.picBtnTop{ width:790px; height:406px; position:relative;  overflow:hidden;  zoom:1;}
+
+.picBtnTop .hd .bodylist_top{
+	width: 180px;
+	height: 30px;
+	background: url(../img/case_top.png) no-repeat;
+	background-size: 100% 100%;
+	color:#d0f8fc;
+	font-size: 16px;
+	padding-top: 7px;
+	padding-left:20px;
+}
+.picBtnTop .hd{ width:200px;  height:406px; position:absolute; right:5px; overflow:hidden; }
+.picBtnTop .hd .case_bot{
+	display: inline-block;
+	width:30px;
+	height:367px;
+}
+.hd_con{
+	position: absolute;right:-10px;top:34px; 
+	width:200px;height:360px;overflow: hidden;
+}
+.picBtnTop .hd ul{width:200px;}
+.picBtnTop .hd ul li{ width:200px;cursor: pointer;margin-bottom: 12px; }
+
+.picBtnTop .hd ul li .case_list_left{
+	width: 160px;
+	color:#9bccce;
+	font-size: 9px;
+
+}
+.picBtnTop .hd ul li .case_list_right{
+	width: 36px;
+	font-size: 12px;
+	color: #f8a94c;
+}
+.picBtnTop .bd{ width:570px;  height:399px; position:relative; background: url(../img/casecenter.png) no-repeat;background-size: 100% 100%;padding-top:7px;}
+.picBtnTop .bd .tempWrap{width: 554px;margin:0 auto;}
+.picBtnTop .bd .tempWrap ul li{ position:relative; zoom:1; vertical-align:middle;}
+.picBtnTop .bd .tempWrap ul li a{display: block;width: 554px;height: 390px;}
+.picBtnTop .bd .tempWrap ul li img{ display: block;width: 554px;height: 390px;}
