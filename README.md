@@ -1,10 +1,10 @@
 ###### 安装依赖
 ###### npm install
 
-###### 技术栈：rem.js+gulp+webpack+json+less+svg
+###### 技术栈：gulp+less+svg
 ```
 启动服务器
-$ node node_modules/gulp/bin/gulp.js defaultwo
+npm run dev
 ```
 
 ## webpack的使用
