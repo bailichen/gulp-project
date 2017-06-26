@@ -1,8 +1,8 @@
-###### 安装依赖
+### 安装依赖
 
-###### npm install
+### npm install
 
-###### 技术栈：gulp+less+svg
+### 技术栈：gulp+less+svg
 
 ```
 启动服务：
