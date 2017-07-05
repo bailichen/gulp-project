@@ -16,7 +16,7 @@ npm run dev
 
 ```
 
-大量使用svg代替传统jpg、png图片构建页面，了解并熟练运动svg
+大量使用svg代替传统jpg、png图片构建页面，了解并熟练运用svg
 
 ```
 
