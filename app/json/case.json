@@ -2,21 +2,21 @@
 	"proname": "虚拟仿真实训",
 	"site": "上海",
 	"siteImg": "../img/y1.png",
-	"firstImg": "../img/xnfz/01.png",
+	"firstImg": "../img/sh/xnfz/01.png",
 	"screenshot": [
-		"../img/xnfz/01.png",
-		"../img/xnfz/02.png",
-		"../img/xnfz/03.png",
-		"../img/xnfz/04.png",
-		"../img/xnfz/05.png",
-		"../img/xnfz/06.png",
+		"../img/sh/xnfz/01.png",
+		"../img/sh/xnfz/02.png",
+		"../img/sh/xnfz/03.png",
+		"../img/sh/xnfz/04.png",
+		"../img/sh/xnfz/05.png",
+		"../img/sh/xnfz/06.png"
 	],
 	"describe": "Web 3D工程虚拟实验室”系统利用虚拟现实技术再现仿真虚拟实验环境，使培训人员可以轻松观看到整个工艺流程，了解设备内部结构及工作原理，达到实践教学的目的。另外再通过人机交互来操作实验中的设备从而控制整个实验过程，系统也将这些过程进行记录评判，为最终的培训考核提供帮助。",
 	"usernum": "4000+",
 	"feature": "95%",
 	"design": "95%",
 	"mutually": "95%",
-	"practical": "95%",
+	"practical": "95%"
 }, {
 	"proname": "丽江古城智慧旅游（虚拟漫游）",
 	"site": "丽江古城",
@@ -27,14 +27,14 @@
 		"../img/yn/lj/02.jpg",
 		"../img/yn/lj/03.jpg",
 		"../img/yn/lj/04.jpg",
-		"../img/yn/lj/05.jpg",
+		"../img/yn/lj/05.jpg"
 	],
 	"describe": "为丽江古城打造的数字博物馆将线上的虚拟漫游，古城复原，极大的丰富了展示的可看性，体验也更为生动有趣。丽江古城以四方街为主，将四方街以及周边具有代表性的景点，利用Web3D技术将景点1:1三维还原呈现在网上，借互联网的优势，将丽江古城旅游更大的范围推向世界。",
 	"usernum": "3000",
 	"feature": "90%",
 	"design": "90%",
 	"mutually": "90%",
-	"practical": "90%",
+	"practical": "90%"
 }, {
 	"proname": "南京博物院数字博物馆（虚拟漫游）",
 	"site": "南京博物院",
@@ -45,33 +45,33 @@
 		"../img/nj/bwy/02.png",
 		"../img/nj/bwy/03.png",
 		"../img/nj/bwy/04.png",
-		"../img/nj/bwy/2.png",
+		"../img/nj/bwy/2.png"
 	],
 	"describe": "数字博物馆是利用现代信息技术全面展示、诠释文物所蕴涵的历史文化发展、变迁、交融的场所，它摆脱了传统意义上实体博物馆和文物保护单位所必需的建筑、陈列、参观时间等条件的束缚，打破了时间与空间的限制，使任何人在任何时间、任何地点都能够获取所需的文物信息。与实体博物馆相比较，数字博物馆具有信息实体虚拟化、信息资源数字化、信息传递网络化、信息利用共享化、信息提供知识化、信息展示多样化等特点，是实体博物馆实物陈列的有益补充和未来发展趋势。",
 	"usernum": "5000",
 	"feature": "80%",
 	"design": "80%",
 	"mutually": "80%",
-	"practical": "80%",
+	"practical": "80%"
 }, {
 	"proname": "陈云纪念馆（虚拟漫游）",
 	"site": "上海",
 	"siteImg": "../img/y1.png",
-	"firstImg": "../img/sh/cyjing/01.png",
+	"firstImg": "../img/sh/cyjng/01.png",
 	"screenshot": [
-		"../img/sh/cyjing/01.png",
-		"../img/sh/cyjing/02.png",
-		"../img/sh/cyjing/03.png",
-		"../img/sh/cyjing/04.png",
-		"../img/sh/cyjing/05.png",
-		"../img/sh/cyjing/06.png",
+		"../img/sh/cyjng/01.png",
+		"../img/sh/cyjng/02.png",
+		"../img/sh/cyjng/03.png",
+		"../img/sh/cyjng/04.png",
+		"../img/sh/cyjng/05.png",
+		"../img/sh/cyjng/06.png"
 	],
 	"describe": "依托实体陈云故居暨青浦革命历史纪念馆现有资源，利用三维虚拟现实、多媒体等方式将陈云纪念馆展示的内容全方位立体地呈现在互联网上，构筑一个网络体验和实时互动相结合的网络平台，实现三维虚拟陈云纪念馆在多媒体互动设备、网络媒体上的三维虚拟展现与传播。同时支持全球网络均可实时在线流畅浏览。让游客通过网上数字陈云纪念馆突破时间与空间的鸿沟，直接体验陈云在过去的历史岁月中所经历的生活和工作场景，为所有关注陈云的人们提供一个网络互动交流的真实空间，弥补一部分人无法亲临陈云纪念馆的遗憾。让陈云代表的爱国主义和民族精神通过网络走出国门。同时系统建设需考虑让更多的游客参与、互动。",
 	"usernum": "2000",
 	"feature": "75%",
 	"design": "75%",
 	"mutually": "75%",
-	"practical": "75%",
+	"practical": "75%"
 }, {
 	"proname": "上海航海博物馆",
 	"site": "上海",
@@ -81,14 +81,14 @@
 		"../img/sh/hhbwg/01.jpg",
 		"../img/sh/hhbwg/02.jpg",
 		"../img/sh/hhbwg/03.jpg",
-		"../img/sh/hhbwg/04.jpg",
+		"../img/sh/hhbwg/04.jpg"
 	],
 	"describe": "船舶数字博物馆，就在你身边为你打开船舶领域的知识之门。足不出户、身不沾湿，人们就可以领略到船舶这一伟大工具的沧桑与风云。不会充斥高深的术语，不会堆砌艰涩的文字，人们会看到的是：娓娓而来的介绍、丰富琳琅的图像，任意旋转的三维模型，在数字化的网上船舶博物馆中徜徉，会发现原来船舶的知识可以那么通俗易现，原来船舶是如此多姿多彩，原来人类历史上有如许多有趣的船，原来人类使用船舶是这样的波澜壮阔。",
 	"usernum": "2600",
 	"feature": "75%",
 	"design": "75%",
 	"mutually": "75%",
-	"practical": "75%",
+	"practical": "75%"
 }, {
 	"proname": "金山文化云",
 	"site": "上海金山",
@@ -100,14 +100,14 @@
 		"../img/sh/js/03.jpg",
 		"../img/sh/js/04.jpg",
 		"../img/sh/js/05.jpg",
-		"../img/sh/js/06.jpg",
+		"../img/sh/js/06.jpg"
 	],
 	"describe": "金山文化云是一款基于上海金山区政府公共文化资源而提供在线预约、预订服务的平台。用户可以通过注册登录该平台，浏览文化活动、文化场馆、文化团体资讯，进行在线预订活动票务。",
 	"usernum": "8000",
 	"feature": "90%",
 	"design": "90%",
 	"mutually": "90%",
-	"practical": "90%",
+	"practical": "90%"
 }, {
 	"proname": "黄浦文化云",
 	"site": "上海",
@@ -119,12 +119,12 @@
 		"../img/sh/hp/03.jpg",
 		"../img/sh/hp/04.jpg",
 		"../img/sh/hp/05.jpg",
-		"../img/sh/hp/06.jpg",
+		"../img/sh/hp/06.jpg"
 	],
 	"describe": "黄浦文化云是一款基于上海黄浦区政府公共文化资源而提供在线预约、预订服务的平台。用户可以通过注册登录该平台，浏览文化活动、文化场馆、文化团体资讯，进行在线预订活动票务。",
 	"usernum": "8000+",
 	"feature": "90%",
 	"design": "90%",
 	"mutually": "90%",
-	"practical": "90%",
+	"practical": "90%"
 }]
